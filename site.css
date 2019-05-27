@@ -5,6 +5,10 @@ body {
 	line-height: 1.5;
 }
 
+main h1 {
+	text-transform: uppercase;
+}
+
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
@@ -95,4 +99,23 @@ em {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url("github.png");
+}
+
+.twitter {
+	background-image: url("twitter.png");
+}
+
+.linkedin {
+	background-image: url("linkedin.png");
 }
