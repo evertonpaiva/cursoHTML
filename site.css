@@ -12,18 +12,29 @@ main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
+    border-bottom: 10px solid #000;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
 }
 
 p {
     text-align: justify;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
 blockquote {
     background-color: #D9E5E3;
-    padding: 16px;
     border: 10px solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
     width: 250px;
     margin: 0;
     box-sizing: border-box;
@@ -32,6 +43,7 @@ blockquote {
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 footer {
@@ -46,4 +58,12 @@ aside a {
 
 main a {
     color: #851944;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    line-height: 1.5;
 }
