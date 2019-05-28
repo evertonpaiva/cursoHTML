@@ -71,6 +71,11 @@ main a {
     padding: 20px;
 }
 
+cite {
+	float: right;
+	font-style: italic;
+}
+
 .container {
 	width: 720px;
 	margin: auto;
@@ -132,10 +137,12 @@ em {
 	background-image: url("linkedin.png");
 }
 
-aside, img {
+.minha-foto, .navegacao-site {
 	float: right;
 	width: 15%;
 	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
 
 aside {
@@ -147,6 +154,6 @@ main {
 	width: 85%;
 }
 
-footer {
+.rodape-pagina {
 	clear: both;
 }
