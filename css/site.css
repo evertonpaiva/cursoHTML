@@ -17,14 +17,6 @@ h2 {
 	clear: both;
 }
 
-.fiat {
-	float: right;
-}
-
-.petrobras {
-	float: left;
-}
-
 .titulo-principal {
 	text-align: center;
 	background-color: #851944;
@@ -67,13 +59,8 @@ main a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-.citacao-bio, .navegacao-site, .rodape-pagina {
+.navegacao-site, .rodape-pagina {
     padding: 20px;
-}
-
-cite {
-	float: right;
-	font-style: italic;
 }
 
 .container {
@@ -104,21 +91,6 @@ em {
 	display: inline-block;
 }
 
-.artigo {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
-}
-
-.leia-mais {
-	padding: 8px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
 .icones-redes-sociais a {
 	width: 40px;
 	height: 40px;
@@ -127,15 +99,15 @@ em {
 }
 
 .github {
-	background-image: url("github.png");
+	background-image: url("../img/github.png");
 }
 
 .twitter {
-	background-image: url("twitter.png");
+	background-image: url("../img/twitter.png");
 }
 
 .linkedin {
-	background-image: url("linkedin.png");
+	background-image: url("../img/linkedin.png");
 }
 
 .minha-foto, .navegacao-site {
