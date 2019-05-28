@@ -77,9 +77,10 @@ cite {
 }
 
 .container {
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
+	width: 840px;
+	margin: 0 auto;
+	padding: 40px 0;
+	padding-bottom: 80px;
 }
 
 .navegacao-site h1 {
@@ -139,14 +140,16 @@ em {
 
 .minha-foto, .navegacao-site {
 	float: right;
-	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
 }
 
-aside {
+.navegacao-site {
+	width: 15%;
 	clear: right;
+	top: 310px;
+	position: relative;
 }
 
 main {
@@ -156,4 +159,13 @@ main {
 
 .rodape-pagina {
 	clear: both;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
